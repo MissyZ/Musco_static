@@ -1,0 +1,109 @@
+<?php
+/**
+ 	Template Name: Home Page
+ */
+
+
+get_header(); ?>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="col-md-8 home-main-container">
+
+			<img src="images/PalaceFade.jpg" alt="Palace" id="home-feature-image"class="alignnone img-responsive" />
+			<div class="home-feature-sm-images">
+				<div class="col-md-3 col-sm-4 col-xs-6" id="image-one">
+					<img src="images/emiratesFade.jpg" alt="AT&amp;T Staduim" class="img-responsive thumbnail_feature_img" />
+					<h6>Wicked cool lights, at some stadium</h6>
+				</div>
+
+				<div class="col-md-3 col-sm-4 col-xs-6" id="image-two">
+					<img src="images/airStyleFade.jpg" alt="crateFade" class="img-responsive thumbnail_feature_img" />
+					<h6>New LED Lights at some Kick Ass Field</h6>
+				</div>
+				<div class="col-md-3 col-sm-4 hidden-xs" id="image-three">
+					<img src="images/alpineFade.jpg" alt="upFade" class="img-responsive thumbnail_feature_img" />
+					<h6>New LED Lights at some Kick Ass Place</h6>
+				</div>
+				
+				<div class="col-md-3 hidden-sm hidden-xs" id="image-four">
+					<img src="images/attFade.jpg" alt="AT&amp;T Center" class="img-responsive thumbnail_feature_img" />
+					<h6>Wicked cool lights, in a town that is awesome</h6>
+				</div>
+			</div><!-- home-feature-img -->
+			
+			<div class="col-sm-12 home-main-content">
+
+				<div class="col-xs-12">
+					<h2 class="text-center">Delivering light precisely where you need it. Musco, the experts in lighting.</h2>
+				</div><!-- col-xs-12 -->
+
+				<div class="col-sm-4">
+
+				<img src="images/hand-pressing-power-button-on-blue-background.jpg" alt="hand-pressing-power-button-on-blue-background" class="img-responsive" />
+
+				</div><!-- col-4 -->
+
+				<div class="col-sm-8 control-link-container">
+
+				<a class="paragraphLinks" href="http://kommandantklick.com/control-link/">Control*Link</a>
+				<h3>A Friendly Reminder from Your Friends at Control*Link</h3>
+				<span class="home-text">Using LED and metal halide light sources, Musco delivers customized lighting solutions for sports and large-area venues around the world. We have invested more than 35 years researching and testing lighting technology, and the precise science of light control. The results are affordable, energy-efficient solutions that provide the highest quality of light, while minimizing spill light and glare. Our trouble-free lighting systems carry an industry leading warranty complete from foundation to poletop.<br> <a class="home-read-more" title="Control*Link link" href="#"><strong>read more...</strong></a></span>
+
+				</div><!-- col-8 -->
+				
+			</div><!-- col-12 -->
+
+			<div class="col-sm-12 home-main-content">
+				<div class="col-sm-4">
+
+				<img src="images/spreadsheet-shade-of-blue.jpg" alt="spreadsheet-shade-of-blue" class="img-responsive" />
+
+				</div><!-- col-4 -->
+
+				<div class="col-sm-8">
+
+				<a class="paragraphLinks home-finance-link" href="http://kommandantklick.com/musco-finance/">Musco Finance</a>
+				<h3>Musco Finance is Here to Help</h3>
+				<span class="home-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam doloremque illo tempore ex neque ab eligendi enim, facilis architecto excepturi, rem, porro sit quos odio tenetur accusamus hic dolorum. Voluptate!<br> 
+				<a class="home-read-more" title="Musco Finance link" href="#"><strong>read more...</strong></a></span>
+
+				</div><!-- col-8 -->
+				
+			</div><!-- second-row col-12 -->
+			</div><!-- col-8 left col -->
+			
+			<div class="col-md-4 sidebar-right">
+				<div class="col-xs-11 world-map">
+					<h3>Regional Websites</h3>
+					<hr>
+				</div><!-- world-map -->
+				
+				<div class="col-xs-11 about-musco">
+					<h3>About Musco Lighting</h3>
+					<hr>
+					<p class="home-text">
+					Using LED and metal halide light sources, Musco delivers customized lighting solutions for sports and large-area venues around the world. We have invested more than 35 years researching and testing lighting technology, and the precise science of light control. The results are affordable, energy-efficient solutions that provide the highest quality of light, while minimizing spill light and glare. Our trouble-free lighting systems carry an industry leading warranty complete from foundation to poletop. &nbsp;<strong><a href="#" class="home-read-more"> read more ...</a></strong>
+					</p>
+				</div><!-- about-musco -->
+				
+				<div class="col-xs-11 make-it-happen text-center">
+					<div class="sidebar-image">
+						<img class="alignnone size-full wp-image-246" src="http://kommandantklick.com/wp-content/uploads/2016/01/ddl-e1456238380838.jpg" alt="DDL" width="275" height="275" />
+					</div>
+					<div class="make-it-happen-content">
+						<h4 id="logoTitle">We Make It Happen</h4>
+						<p class="home-text">Spend a day making it happen with our<br>
+						Field Services Team</p>
+						<a class="home-read-more" title="Daniel Day Lewis" href="#"><strong>read more...</strong></a>
+					</div><!-- make-it-happen-content -->
+				</div><!-- make-it-happen --> 
+				
+			</div><!-- sidebar-right -->
+
+		</div><!-- col-12 -->
+	</div><!-- row -->
+</div>
+
+	<?php get_footer(); ?>

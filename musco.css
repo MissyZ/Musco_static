@@ -1,0 +1,813 @@
+/*===== Global =====*/
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+	color: #333;
+	font-size: 14px;
+	line-height: 145%;
+	margin: 0;
+	padding: 0px;
+}
+
+#go-top { 
+	background-color: #005FA2;
+}
+
+
+h1 {
+    color: #4c6d9e;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding: 0px;
+    font-size: 135%;
+    font-weight: bold;
+}
+
+h2 {
+    color: #4c6d9e;
+    font-size: 120%;
+    font-weight: bold;
+
+}
+
+h3 {
+    color: #333;
+    font-size: 115%;
+    font-weight: bold;
+    height: 15px;   
+}
+
+/*underlines the h3 headers*/
+
+.dottedLine {  
+    border-bottom: 1px dotted #333;
+    color: #333;
+    font-size: 115%;
+    font-weight: bold;
+    height: 15px;   
+}
+
+h4 {
+    color: #4c6d9e;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+h5 {
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    padding: 0px;
+    float: right;
+    font-size: 135%;
+    color: #4c6d9e;
+}
+
+a:link {
+    color: #4c6d9e;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4c6d9e;
+    font-weight: 700;
+}
+
+a:visited {
+    color: #4c6d9e;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+hr {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    border-top: 3px solid #CDCDCD;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+
+/*====== Header ======*/
+
+.top-header {
+    	margin: 0 8%;
+	padding: 20px 0;
+}
+
+.site-title, .site-description {
+    clip: auto !important;
+}
+
+.right-top-head {
+	margin: 0 5% 0 0;
+}
+
+.right-top-head .call-us {
+    	color: #005DA4;
+    	font-size: 1.43em;
+	font-weight: bold;
+	margin-top: 45px;
+}
+
+#menu-item-34 {
+	margin-left: 5px;
+}
+
+/*====== Navigation ======*/
+
+
+.menu-wrapper {
+	background-color: #005FA2;
+}
+.site-title {
+  position: relative;
+}
+
+.primary-menu li {
+	font-size: 1em;
+}
+
+#site-navigation ul li:hover > a, 
+#site-navigation ul li.current-menu-item > a, 
+#site-navigation ul li.current-menu-ancestor > a {
+    background-color: #4c6d9e;
+}
+
+
+/*====== Content ======*/
+
+.statement {
+    color: #4c6d9e !important;
+    font-size: 175%;
+    line-height: 175%;
+    padding: 25px 0;
+    text-align: center;
+}
+    
+.contentContainer h2 {
+    color: #333;
+}    
+
+.contentContainer h3 {
+    margin-bottom: 15px;
+}
+
+.contentContainer .col-md-3{
+    width: 27.5%;
+}
+
+.contentContainer a:link {
+    color: #4c6d9e;
+    font-weight: bold;
+}
+
+.contentContainer a:visited, .boldAndBlue {
+    color: #4c6d9e;
+    font-weight: bold;
+}
+
+.contentContainer a:hover {
+    color: #333;
+    font-weight: bold;
+}
+
+.contentContainer hr {
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 1px;
+    border-top: 1px solid #CDCDCD;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.contentContainer br {
+    line-height: 10%;
+} 
+
+
+
+/*========Home Page =======*/
+
+.paragraphLinks {
+	color: #005DA4;
+	font-size: .85em;
+}
+
+#home-feature-image {
+    padding-bottom: 6px;
+}
+
+.home-feature-sm-images h6 {
+    color: #005DA4;
+    font-size: .9em;
+    font-weight: normal;
+}
+
+#image-one {
+    padding-right: 2px;
+}
+
+#image-two {
+    padding-left: 1px;
+    padding-right: 1.5px;
+}
+
+#image-three {
+    padding-left: 1.5px;
+    padding-right: 1px;
+}
+
+#image-four {
+    padding-left: 2px;
+    padding-right: 0;
+}
+
+.home-main-container .col-sm-12,
+.home-main-container .col-sm-4,
+.home-main-content .col-xs-12 {
+    padding-left: 0;
+}
+
+.home-main-container h3 {
+	color: #000;
+	font-size: 1.14em;
+    margin-top: 0;
+}
+
+.home-main-content {
+    margin-bottom: 20px;
+}
+
+.home-main-content h2 {
+    color: #005DA4;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.home-main-content img {
+    padding-top: 25px;
+}
+
+.home-finance-link,
+.home-finance-link:link,
+.home-finance-link:visited {
+    color: #417505;
+}
+
+.home-text {
+    color: #5F5F62;
+}
+
+.home-read-more,
+.home-read-more:link,
+.home-read-more:visited {
+    color: #5F5F62;
+    font-weight: 600;
+}
+
+
+
+/*========Home Page - Sidebar =======*/
+
+
+.sidebar-right h3{
+    border-bottom: 20px;    
+    color: #5F5F62;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 40px;
+}
+
+.sidebar-right hr {
+    margin-top: 18px; 
+    margin-bottom: 10px;
+    border-top: 1px solid #CDCDCD;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.sidebar-right .col-xs-11 {
+    padding-right: 0;
+    padding-bottom: 20px;
+}
+
+
+.sidebar-image img {
+	border: 4px solid #005DA4;
+	border-radius: 100%;
+}
+
+#logoTitle {
+	margin-top: 10px;
+}
+
+
+
+/*===== About Us Page =====*/
+
+
+#weMakeIt h1 {
+    margin-bottom: 12px;
+}
+
+
+.contactUsHeader {
+    padding: 0px;
+    font-size: 135%;
+    color: #4c6d9e;
+    font-weight: bold;
+}
+
+.aboutUsContentLinks {
+    font-size: 100%;
+}
+
+/*===== Career Page ======*/
+
+#careerImg {
+    margin-top: 12px;
+}
+
+
+/*===== Contact Us Page =====*/
+
+#contactUsHeader {
+    margin-top: 5px;
+}
+
+#contactUsFindRep {
+    color: #4c6d9e;
+    font-size: 95%;
+}
+
+/*===== Sales Reps =====*/
+
+.phone {
+    color: #000;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+
+/*===== View Sales Associates =====*/
+
+#references {
+    margin-bottom: 25px;
+}
+
+#references .bigfont {
+    padding-top: 15px;
+}
+
+/*===== Sports Lighting ===== */
+
+.copy {
+    margin-top: 0px;
+    max-width: 600px;
+}
+
+.keyIssues {
+    margin-bottom: 0px;
+    font-size: 135%;
+    font-weight: bold;
+    color: #4c6d9e;
+}
+
+.sportsSubHeaders {
+    margin-left: -15px;
+}
+
+#recentProjects {
+    border-left: 1px solid #CDCDCD;
+    padding-left: 20px;
+}
+
+#recentProjects img {
+    padding-bottom: 12px;
+}
+
+#servicesPar2 {
+    height: 27px;
+}
+
+    /* ====== Outdoor Custom Fabrication ===== */
+
+#customHeading {
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+
+
+    /* ====== Outdoor Lightbox ===== */
+
+
+/* used for lightbox photo gallery mark-up  */
+
+#lightbox {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+    line-height: 0;
+}
+
+#lightbox img {
+    width: auto;
+    height: auto;
+}
+
+#lightbox a img {
+    border: none;
+}
+
+#outerImageContainer {
+    position: relative;
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+#imageContainer {
+    padding: 10px;
+}
+
+#loading {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+}
+
+#hoverNav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+#imageContainer > #hoverNav {
+    left: 0;
+}
+
+#hoverNav a {
+    outline: none;
+}
+
+#prevLink, #nextLink {
+    width: 49%;
+    height: 100%;
+    background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */
+    display: block;
+}
+
+#prevLink {
+    left: 0;
+    float: left;
+}
+
+#nextLink {
+    right: 0;
+    float: right;
+}
+
+#prevLink:hover, #prevLink:visited:hover {
+    background: url(../images/prevlabel.gif) left 15% no-repeat;
+}
+
+#nextLink:hover, #nextLink:visited:hover {
+    background: url(../images/nextlabel.gif) right 15% no-repeat;
+}
+
+#imageDataContainer {
+    font: 10px Verdana, Helvetica, sans-serif;
+    background-color: #fff;
+    margin: 0 auto;
+    line-height: 1.4em;
+    overflow: auto;
+    width: 100%;
+}
+
+#imageData {
+    padding: 0 10px;
+    color: #666;
+}
+
+#imageData #imageDetails {
+    width: 70%;
+    float: left;
+    text-align: left;
+}
+
+#imageData #caption {
+    font-weight: bold;
+}
+
+#imageData #numberDisplay {
+    display: block;
+    clear: left;
+    padding-bottom: 1.0em;
+}
+
+#imageData #bottomNavClose {
+    width: 66px;
+    float: right;
+    padding-bottom: 0.7em;
+    outline: none;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    width: 100%;
+    height: 500px;
+    background-color: #333;
+}
+
+
+/*===== Large Area Lighting =====*/
+
+.la-List-Container {
+
+    padding-left: 0;
+}
+
+
+/*===== News =====*/
+
+
+.caseHeaderBuffer {
+    margin-bottom: 10px;
+}
+
+.home-header h1 {
+    font-size: 175%;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.home-feature-image img {
+    margin: auto;
+}
+
+.home-feature-image h6 {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    border-left: none;
+}
+
+blockquote p {
+    color: #4c6d9e;
+    font-weight: 500;
+}
+
+.home-image-gallery {
+    margin-top: 20px;
+}
+
+.home-button-container {
+    margin: 15px 37%;
+}
+
+.home-button-container .btn-primary {
+    background-color: #4c6d9e;
+    border-color: #4c6d9e;
+}
+
+.home-button-container .btn {
+    font-size: 1.1em;
+    padding: 10px 60px;
+}
+
+.home-image-gallery hr {
+        border-top: 1px solid #CDCDCD;
+}
+
+.vid {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.vid iframe,
+.vid object,
+.vid embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 100%;
+}
+
+
+
+/*===== Footer =====*/
+
+footer hr {
+    border-top: 1px solid #CDCDCD;
+    margin-top: 15px;
+}
+
+.site-footer .col-xs-5 {
+	width: 44.6%;
+} 
+
+.site-footer .col-xs-2 {
+	padding-right: 0;
+	width: 10%;
+}
+
+
+.footer-featured-section {
+	background-color: #fff;
+    	color: #B3B3B4;
+    	font-size: 1em;
+    	height: 95px;
+	padding: 20px 0 0 0;
+    	margin-top: 30px;
+}
+
+footer .ap-container {
+	margin-top: 20px;
+}
+
+footer a:link {
+    color: #005DA4;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #005DA4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #005DA4;
+}
+
+.aps-group-horizontal {
+	text-align: right;
+}
+
+
+#text-11 {
+	text-align: right;
+}
+
+
+.featured-footer-wrap .widget-title {
+    color: #7F7F81;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.featured-footer-wrap .textwidget  {
+	color: #B3B3B4;
+	font-size: .71em;
+	text-align: right;
+}
+
+.widget_nav_menu .menu li a {
+	color: #B3B3B4;
+}
+
+.menu-servicessupport-container ul, 
+.menu-information-container ul, 
+.menu-products-container ul {
+	margin: 0;
+}
+
+
+/*=== Media Queries ===*/
+
+@media screen and (max-width: 480px) {
+    
+    body {
+        font-size: 14px;
+    }
+    
+    .searchContainer {
+        float: left;
+        padding-top: 10px;
+        text-align: left;
+    }
+
+    #footerSMI {
+        float: left;
+        padding-top: 5px;
+        text-align: left;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 750px) {
+
+    #footerSMI {
+        float: right;
+        margin-top: -30px;
+    }
+
+}
+
+@media screen and (min-width: 751px) and (max-width: 990px) {
+
+    #footerSMI {
+        float: right;
+        margin-top: -30px;
+    }
+
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+
+    #footerSMI {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .tableResponsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #DDD;
+    }
+
+    #image-one {
+        padding-right: 2px;
+    }
+
+    #image-two {
+        padding-left: 2px;
+        padding-right: 0;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+
+    #recentProjects {
+        border: none;
+    }
+
+    .col-sm-offset-1 {
+       margin-left: 0;
+    }
+
+    .navbar .col-md-offset-1 {
+       margin-left: 0;
+    }
+
+    .home-feature-sm-images .col-sm-4:first-child {
+        padding-left: 0;
+    }
+
+    .home-feature-sm-images .col-sm-4:nth-child(3) {
+        padding-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    
+    nav ul li {
+        margin-right: 0;
+    }
+
+    .control-link-container h3 {
+        margin-bottom: 16px;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+
+    #recentProjects {
+        padding-left: 50px;
+    }
+}
