@@ -559,8 +559,9 @@ hr {
 }
 
 .home-header h1 {
-    font-size: 175%;
-    font-weight: 500;
+    color: #005DA4;
+    font-size: 2em;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
@@ -568,10 +569,24 @@ hr {
     margin: auto;
 }
 
+.home-image-gallery h2 {
+    color: #005DA4;
+    font-size: 1.57em;
+    margin-left: 15px;
+}
+
 .home-feature-image h6 {
-    color: #777;
+    color: #5F5F62;
+    font-size: 1em;
     margin-bottom: 20px;
 }
+
+.home-feature-sm-images h6 {
+    color: #005DA4;
+    font-size: .9em;
+    font-weight: normal;
+}
+
 
 blockquote {
     border-left: none;
@@ -579,7 +594,19 @@ blockquote {
 
 blockquote p {
     color: #4c6d9e;
-    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.57em;
+    font-weight: bold;
+}
+
+blockquote footer {
+    font-size: 1.14em;
+    line-height: 1.42857143;
+    color: #333333;
+}
+
+#quote-line-two {
+    margin-left: 25px;
 }
 
 .home-image-gallery {
